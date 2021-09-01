@@ -1,8 +1,29 @@
+body {
+  text-align: center;
+}
 #main {
+  background-color: burlywood;
 }
-
 #title {
+  font-size: 60px;
+  background-color: rgb(214, 166, 103);
 }
 
-#img-div {
+#image {
+  max-width: 50%;
+  display: block;
+  height: auto;
+  margin: auto;
+  border-radius: 10%;
+  border: 5px solid #ddd;
+  box-shadow: 5px 5px 25px black;
+}
+
+#image:hover {
+  /*transform: scaleX(-1);*/
+  content: url("Electrical Nikola Tesla.jpg");
+}
+
+#img-caption {
+  font-size: 20px;
 }
